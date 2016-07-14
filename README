@@ -1,14 +1,24 @@
 See: http://mupuf.org/project/arduide/
 
+Dependencies:
+
+Arduide depends on the following projects:
+
+  QScintilla2
+  Grantlee
+  Libudev
+  Qt4
+  cmake
+    
 Debian-based
 
-sudo apt-get install libqscintilla2-dev libudev-dev libgrantlee-dev libgrantlee-core0 qt4-qmake cmake git
+  sudo apt-get install libqscintilla2-dev libudev-dev libgrantlee-dev libgrantlee-core0 qt4-qmake cmake git
 
 Installation
 
-$ git clone https://git.gitorious.org/arduide/arduide.git 
-$ cd arduide && mkdir build && cd build
-$ cmake -DCMAKE_INSTALL_PREFIX=/usr -DUSE_FHS_PATHS=ON -DCMAKE_BUILD_TYPE=Release ..
-$ make
-# make install
+  $ git clone https://git.gitorious.org/arduide/arduide.git 
+  $ cd arduide && mkdir build && cd build
+  $ cmake -DCMAKE_INSTALL_PREFIX=/usr -DUSE_FHS_PATHS=ON -DCMAKE_BUILD_TYPE=Release ..
+  $ make
+  $ make install
 
