@@ -17,8 +17,10 @@ Debian-based (qt4)
 ```
 Debian-based (qt5) - TODO
 ```sh
-  sudo apt-get install libqscintilla2-dev libudev-dev qt5-qmake cmake git
-  
+  sudo apt-get install libqt5scintilla2-dev libudev-dev qt5-qmake cmake git
+```
+  https://packages.debian.org/search?searchon=names&keywords=libgrantlee5-dev
+```sh  
   sudo dpkg -i libgrantlee5-dev_5.1.0-1_amd64.deb libgrantlee-templates5_5.1.0-1_amd64.deb libgrantlee-textdocument5_5.1.0-1_amd64.deb
 ```
 Installation
