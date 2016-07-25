@@ -31,9 +31,10 @@ Installation
 ```
 
 ## Links
+
 [QScintilla2]: http://www.riverbankcomputing.co.uk/software/qscintilla/intro
 [Grantlee]: https://github.com/steveire/grantlee
 [Libudev]: http://www.freedesktop.org/software/systemd/libudev/
-[Qt4]: https://qt.digia.com/
+[Qt4/Qt5]: https://qt.digia.com/
 [cmake]: http://www.cmake.org/
 [Doxygen]: http://www.stack.nl/~dimitri/doxygen/
