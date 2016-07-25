@@ -4,12 +4,12 @@ Dependencies:
 
 Arduide depends on the following projects:
 
-*  [QScintilla2] - Qt port of Scintilla.
-*  [Grantlee] - A library to separate structure of documents from the data they contain.
-*  [Libudev] - Allows access to device information.
-*  [Qt4/Qt5] - Cross-platform application framework.
-*  [cmake] - Manage build process.
-*  [Doxygen] - Documentation generator
+* [QScintilla2] - Qt port of Scintilla.
+* [Grantlee] - A library to separate structure of documents from the data they contain.
+* [Libudev] - Allows access to device information.
+* [Qt4/Qt5] - Cross-platform application framework.
+* [cmake] - Manage build process.
+* [Doxygen] - Documentation generator
     
 Debian-based (qt4)
 
@@ -28,6 +28,7 @@ Installation
   $ make install
 
 
+## Links
 [QScintilla2]: http://www.riverbankcomputing.co.uk/software/qscintilla/intro
 [Grantlee]: https://github.com/steveire/grantlee
 [Libudev]: http://www.freedesktop.org/software/systemd/libudev/
